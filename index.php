@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>리슬</title>
+  <title>오, 한복한 인생 ― LEESLE</title>
 
   <!--  Awesome Font link -->
   <link
@@ -40,11 +40,21 @@
       </div>
     </header>
     <div class="center">
-
+      <div class="productWrap">
+        <h2>Leesle Best</h2>
+        <div class="productBoxes">
+          
+          <div class="btn">
+            <a href="#" class="moreBtn"><i class="fa fa-plus-circle"></i></a>
+          </div>
+        </div>
+        <!-- product boxes end -->
+      </div>
     </div>
     <!-- center div end -->
   </div>
   <!-- wrap div end -->
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/leesle/js/product.js"></script>
 </body>
 </html>
