@@ -41,13 +41,20 @@
     </header>
     <div class="center">
       <div class="productWrap">
-        <h2>Leesle Best</h2>
+        <div class="bestTit">
+          <h2>Best Leesle</h2>
+          <p>한 해 동안 가장 많은 사랑을 받은 한복들</p>
+        </div>
         <div class="productBoxes">
           
-          <div class="btn">
-            <a href="#" class="moreBtn"><i class="fa fa-plus-circle"></i></a>
-          </div>
+
         </div>
+        <div class="btn">
+            <button class="moreBtn">
+             <i class="fa fa-plus-circle"></i>
+             <p>더 보기</p>
+            </button>
+          </div>
         <!-- product boxes end -->
       </div>
     </div>
@@ -56,5 +63,8 @@
   <!-- wrap div end -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/leesle/js/product.js"></script>
+  <footer>
+    <p>copyright hkkku</p>
+  </footer>
 </body>
 </html>
