@@ -1,0 +1,15 @@
+.wrap{width: 100%; height: auto; background: #fff;}
+
+/* Header style */
+.headerWrap{padding: 10px; width: 100%; height: auto; display: flex; flex-wrap: wrap;}
+.gnb{width: 70%; height: 100px; display: flex; padding: 50px 100px; align-items: center;}
+.gnb li{float: left; margin: 0 50px;}
+.gnb li a{font-family: 'Roboto'; font-size: 18px; transition: all 0.2s;}
+.gnb li a:hover{color: #7963ab;}
+.gnb li:first-child{margin-left: 0;}
+.logo{width: 30%; height: 100px; justify-content: center; align-items: center; padding: 50px; position: relative;}
+.logo img{width: 60%; height: auto; top: 0; left: 0; position: absolute; margin-left: 50px;}
+
+/* Main Banner style */
+.banner{width: 100%; height: 100vh; overflow: hidden;}
+.banner img{width: 100%; height: auto;}
