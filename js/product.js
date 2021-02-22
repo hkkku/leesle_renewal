@@ -39,8 +39,8 @@
     }
 
     function scrollBtm(){
-      let wrapH = $(".wrap").outerHeight();
-      $("html, body").animate({scrollTop : wrapH});
+      let wrapH = $(".productWrap").outerHeight();
+      $("html, body").animate({scrollTop : wrapH + 600});
     }
 
   });

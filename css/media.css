@@ -1,0 +1,27 @@
+@media screen and (max-width:1400px){
+  .center{max-width: 980px;}
+  .logo img{width: 100px;}
+}
+
+@media screen and (max-width:780px){
+  .logo{width: 100%; margin: 30px 0;}
+  .logo img{width: 150px;}
+  .gnb{width: 100%;}
+  .gnb li{margin: auto !important;}
+
+  .topBtn{right: 5px; font-size: 20px;}
+  .topBtn p{display: none;}
+}
+
+@media screen and (max-width:600px){
+  .banner{height: 50vh;}
+  .logo{margin: 20px 0;}
+  .logo img{width: 100px;}
+
+  .gnb li a{font-size: 14px;}
+
+  .banner .bannerTxt a{padding: 10px 15px; font-size: 12px;}
+  .banner .bannerTxt .subTxt{font-size: 12px;}
+  
+  .productWrap .productBox{width: 50%;}
+}
