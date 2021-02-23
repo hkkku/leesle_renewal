@@ -7,13 +7,24 @@
 .loginBar .loginTab li{float: left; margin-left: 10px;}
 .loginBar .loginTab li a{text-align: center; font-size: 12px; color: #7963ab; font-weight: 300;}
 
-.gnb{width: 80%; height: 100px; display: flex; align-items: center; justify-content: flex-end;}
-.gnb li{float: left; margin: 0 50px;}
-.gnb li a{font-family: 'Roboto'; font-size: 18px; transition: all 0.3s;}
-.gnb li a:hover{color: #7963ab;}
+.gnb{width: 80%; height: 100px; display: flex; align-items: center; justify-content: flex-end; z-index: 999;}
+.gnb .depth1{float: left; padding: 0 50px; position: relative;}
+.gnb li a{font-family: 'Roboto'; font-size: 18px; transition: all 0.3s; margin-bottom: 10px;}
+.gnb .depth1 a:hover{color: #7963ab;}
 .gnb li:first-child{margin-left: 0;}
+
+.gnb li .depth2{width: 100%; position: absolute; display: none; background: rgba(255, 255, 255, 0.5);}
+.gnb li .depth2 li{width: 100%; padding: 10px; display: block; text-align: left; transition: all 0.3s ease-in;}
+.gnb li .depth2 li a{font-size: 13px; font-weight: 300; font-family: 'Noto Sans KR'; text-align: center;}
+
+.gnb li .depth2 li:hover{background: #7963ab; color: #fff; font-weight: 500;}
+.gnb li .depth2 li:hover>a{color: #fff;}
+
+.gnb .depth1:hover>.depth2{display: block;}
+
 .logo{width: 20%; height: 100px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;}
 .logo img{width: 120px;}
+
 /* Main Banner style */
 .banner{width: 100%; height: 100vh; overflow: hidden; position: relative; margin-bottom: 50px; display: flex; justify-content: center; align-items: center;}
 .banner .imgBox{width: 100%; height: 100vh; position: absolute; transition: all 0.5s 0.3s linear; overflow: hidden;}
@@ -33,7 +44,7 @@
 /* Product Section style */
 .productWrap{width: 100%; height: auto; padding: 10px 30px; display: flex; justify-content: center; flex-wrap: wrap;}
 .productWrap .bestTit{width: 100%; height: auto; border-bottom: 1px dotted #7963ab; text-align: center; padding: 0 0 30px; margin-bottom: 15px;}
-.productWrap .bestTit h2{width: 100%; font-size: 42px; font-family: 'Roboto'; font-weight: 700; color: #7963ab; letter-spacing: -1px;}
+.productWrap .bestTit h2{width: 100%; font-size: 50px; font-family: 'Roboto'; font-weight: 300; color: #7963ab; letter-spacing: -1px;}
 .productWrap .bestTit p{font-size: 14px; font-weight: 300; opacity: 0.7;}
 
 .productWrap .productBoxes{width: 100%; height: auto; display: flex; flex-wrap: wrap; padding: 30px 0;}
@@ -52,7 +63,7 @@
 /* Brand Section Style */
 .brandWrap{width: 100%; height: auto; padding: 10px 30px; display: flex; justify-content: center; flex-wrap: wrap; margin: 50px 0; border-top:1px dotted #7963ab;}
 .brandWrap .brandTit{width: 100%; height: auto; text-align: center; padding: 0 0 30px; margin: 15px 0;}
-.brandWrap .brandTit h2{width: 100%; font-size: 42px; font-family: 'Roboto'; font-weight: 700; color: #7963ab; letter-spacing: -1px;}
+.brandWrap .brandTit h2{width: 100%; font-size: 50px; font-family: 'Roboto'; font-weight: 300; color: #7963ab; letter-spacing: -1px;}
 
 .brandWrap .brandBoxes{width: 100%; height: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
 
@@ -63,9 +74,11 @@
 .brandWrap .brandBoxes .leftBox a:hover{background: #7963ab; color: #fff;}
 
 .brandWrap .brandBoxes .rightBox{width: 50%; height: auto; display: flex; flex-wrap: wrap; padding: 10px; border: 1px dotted #7963ab; justify-content: center; align-items: center;}
-.brandWrap .brandBoxes .rightBox .brandBox{width: calc(50% - 10px); height: auto; margin: 5px; transition: all 0.3s ease-out; position: relative;}
+.brandWrap .brandBoxes .rightBox .brandBox{width: calc(50% - 10px); height: auto; margin: 5px; transition: all 0.3s ease-out; position: relative; overflow: hidden; display: flex; flex-wrap: nowrap; transition: all 0.5s 0.3s ease;}
 .brandWrap .brandBoxes .rightBox .brandBox img{width: 100%;}
-_.brandWrap .brandBoxes .rightBox .brandBox .overlay{width: 100%; height: auto; background: #7963ab; position: absolute;}
+.brandWrap .brandBoxes .rightBox .brandBox .overlay{width: 100%; height: 100%; background: #7963ab; position: absolute; display: none; transition: all 0.5s 0.3s ease; opacity: 0.7;}
+.brandBox .overlay p{color: #fff; font-size: 20px; font-family: 'Roboto'; font-weight: 300;}
+.brandWrap .brandBoxes .rightBox .brandBox:hover .overlay{display: flex; justify-content: center; align-items: center; cursor: pointer;}
 
 /* go-to-top button style */
 .topBtn{display: block; position: fixed; bottom: 80px; right: 50px; z-index: 99;  cursor: pointer; font-size: 35px; color: #7963ab;}

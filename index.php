@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>오, 한복한 인생 ― LEESLE</title>
-
+  <link rel="shortcut icon" href="/leesle/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/leesle/favicon.ico" type="image/x-icon">
   <!--  Awesome Font link -->
   <link
   rel="stylesheet"
@@ -35,11 +36,32 @@
          <a href="/leesle/index.php"><img src="/leesle/img/logo.png" alt="leesle logo"></a> 
         </h2>
         <ul class="gnb clear">
-          <li><a href="">SHOP</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">COLLABO</a></li>
-          <li><a href="">LOOK</a></li>
-          <li><a href="">Q&A</a></li>
+          <li class="depth1">
+            <a href="">SHOP</a>
+            <ul class="depth2">
+              <li><a href="#">베스트</a></li>
+              <li><a href="#">외투</a></li>
+              <li><a href="#">상의</a></li>
+              <li><a href="#">원피스</a></li>
+              <li><a href="#">하의</a></li>
+            </ul>
+          </li>
+          <li class="depth1"><a href="">ABOUT</a></li>
+          <li class="depth1">
+            <a href="">COLLABO</a>
+            <ul class="depth2">
+              <li><a href="#">LESSLE X CARD</a></li>
+              <li><a href="#">MEDIA</a></li>
+            </ul>
+          </li>
+          <li class="depth1">
+            <a href="">Q&A</a>
+            <ul class="depth2">
+              <li><a href="#">자주 묻는 질문</a></li>
+              <li><a href="#">고객 문의</a></li>
+            </ul>
+          </li>
+          <li class="depth1"><a href="">LOOK</a></li>
         </ul>
       </div>
     </header>
@@ -76,30 +98,53 @@
           <h2>About Leesle</h2>
         </div>
         <div class="brandBoxes">
+          <?php
+            include $_SERVER['DOCUMENT_ROOT'].'/leesle/php/db_connect.php';
+          ?>
+          <!-- db connect -->
+          <?php
+            $sql = "select * from ls_brand order by LS_brand_num";
+            $brand_result = mysqli_query($dbConn, $sql);
+            while ($row_result = mysqli_fetch_array($brand_result)){
+              $brand_num = $row_result['LS_brand_num'];
+              $brand_tit = $row_result['LS_brand_tit'];
+              $brand_txt = $row_result['LS_brand_txt'];
+          ?>                 
           <div class="leftBox">
-            <h2>Thank You, Leesle</h2>
+            <h2><?=$brand_tit?></h2>
             <p>
-              리슬과 기분 좋은 일상을 보내고 계신가요?</br>
-              리슬과 즐거운 여행 보내셨나요?</br>
-              따뜻한 격려와 칭찬, 리슬과 함께한 행복한 여러분의 이야기는 리슬의 소중한 원동력입니다.</br>
+              <?=$brand_txt?>
             </p>
             <a href="#">View More</a>
           </div>
-          <!-- brand left box end -->
+          <?php
+            }
+          ?>
+          <!-- brand left box loop end -->
           <div class="rightBox">
             <div class="brandBox">
               <img src="/leesle/data/brand_img/brand-01.jpg" alt="">
               <span class="overlay">
+                <p>Thank You, Leesle</p>
               </span>
             </div>
             <div class="brandBox">
               <img src="/leesle/data/brand_img/brand-02.jpg" alt="">
+              <span class="overlay">
+                <p>Leesle X Collaboration</p>
+              </span>
             </div>
             <div class="brandBox">
               <img src="/leesle/data/brand_img/brand-03.jpg" alt="">
+              <span class="overlay">
+                <p>Celebrity</p>
+              </span>
             </div>
             <div class="brandBox">
               <img src="/leesle/data/brand_img/brand-04.jpg" alt="">
+              <span class="overlay">
+                <p>LEESLE LOOKBOOK</p>
+              </span>
             </div>
          </div>
          <!-- brand right box end -->
@@ -122,6 +167,7 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/leesle/js/product.js"></script>
+  <script src="/leesle/js/custom.js"></script>
   <script>
     var topBtn = document.getElementById("topBtn");
 
