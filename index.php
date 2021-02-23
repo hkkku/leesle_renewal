@@ -24,9 +24,16 @@
   <div class="wrap">
     <header>
       <div class="headerWrap">
-        <div class="logo">
-          <img src="/leesle/img/logo.png" alt="">
+        <div class="loginBar">
+          <ul class="loginTab clear">
+            <li><a href="">LOGIN</a></li>
+            <li><a href="">회원가입</a></li>
+            <li><a href=""><i class="fa fa-cart-plus"></i></a></li>
+          </ul>
         </div>
+        <h2 class="logo">
+         <a href="/leesle/index.php"><img src="/leesle/img/logo.png" alt="leesle logo"></a> 
+        </h2>
         <ul class="gnb clear">
           <li><a href="">SHOP</a></li>
           <li><a href="">ABOUT</a></li>
@@ -35,8 +42,11 @@
           <li><a href="">Q&A</a></li>
         </ul>
       </div>
-      <div class="banner">
-        <div class="imgBox"></div>
+    </header>
+    <div class="banner">
+        <div class="imgBox">
+          <img src="/leesle/img/main_banner.jpg" alt="leesle main banner">
+        </div>
         <div class="bannerTxt">
           <h2>오! 한복한 인생 - 리슬</h2>
           <p class="slogan">BRAVO, HANBOK LIFE! LEESLE</p>
@@ -45,7 +55,6 @@
           <a href="#">MORE</a>
         </div>
       </div>
-    </header>
     <div class="center">
       <div class="productWrap">
         <div class="bestTit">

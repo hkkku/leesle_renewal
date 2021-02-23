@@ -1,20 +1,42 @@
 @media screen and (max-width:1400px){
   .center{max-width: 980px;}
   .logo img{width: 100px;}
+
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:1200px){
+  .banner .bannerTxt{margin-left: 30px;}
+}
+
+@media screen and (max-width:900px){
   .logo{width: 100%; margin: 30px 0;}
   .logo img{width: 150px;}
   .gnb{width: 100%;}
   .gnb li{margin: auto !important;}
+
+  .banner{width: 100%; height: 300px; margin-bottom: 30px;}
+  .banner .imgBox{width: 100%; height: auto;}
+  .banner .imgBox img{width: 100%; height: auto;}
+  .banner .bannerTxt{position: absolute; top: 50%; left: 50%; transform:translate(-50%, -50%); text-align: center; display: flex; flex-direction: column; opacity: 0; transition: all 0.3s 0.5s linear; justify-content: center; align-items: center;}
+
+  .banner .bannerTxt .subTxt{display: none;}
+  .banner .bannerTxt h2{color: #444;}
+  .banner .bannerTxt .slogan{margin: 0; color: #444;}
+  .banner .bannerTxt a{padding: 5px 20px; font-size: 12px; font-weight: 300;}
+
+  .productWrap .bestTit h2,
+  .brandWrap .brandTit h2{font-size: 30px;}
+}
+
+@media screen and (max-width:780px){
+
 
   .topBtn{right: 5px; font-size: 20px;}
   .topBtn p{display: none;}
 }
 
 @media screen and (max-width:600px){
-  .banner{height: 50vh;}
+  .banner{display: none;}
   .logo{margin: 20px 0;}
   .logo img{width: 100px;}
 
@@ -24,4 +46,15 @@
   .banner .bannerTxt .subTxt{font-size: 12px;}
   
   .productWrap .productBox{width: 50%;}
+
+  .brandWrap .brandBoxes .rightBox,
+  .brandWrap .brandBoxes .leftBox{width: 100%;}
+  .brandWrap .brandBoxes .leftBox{justify-content: center; align-items: center; text-align: center;}
+}
+
+@media screen and (max-width:400px){
+  .gnb{height: 50px;}
+  .loginBar{padding: 5px 10px;}
+  .brandWrap{margin: 0;}
+  .brandWrap .brandBoxes .leftBox{display: none;}
 }
