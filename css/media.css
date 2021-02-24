@@ -1,27 +1,25 @@
 @media screen and (max-width:1400px){
   .center{max-width: 980px;}
   .logo img{width: 100px;}
-
 }
 
 @media screen and (max-width:1200px){
   .banner .bannerTxt{margin-left: 30px;}
+
+  .gnb .depth1{padding: 0 20px;}
 }
 
 @media screen and (max-width:900px){
   .logo{width: 100%; margin: 30px 0;}
   .logo img{width: 150px;}
-  .gnb{width: 100%;}
+  .gnbWrap{width: 100%; justify-content: center;}
+  .gnb .depth1{padding: 0 30px; margin: auto;}
   .gnb li{margin: auto !important;}
 
   .banner{width: 100%; height: 300px; margin-bottom: 30px;}
   .banner .imgBox{width: 100%; height: auto;}
   .banner .imgBox img{width: 100%; height: auto;}
-  .banner .bannerTxt{position: absolute; top: 50%; left: 50%; transform:translate(-50%, -50%); text-align: center; display: flex; flex-direction: column; opacity: 0; 
-    
-    
-    
-    transition: all 0.3s 0.5s linear; justify-content: center; align-items: center;}
+  .banner .bannerTxt{position: absolute; top: 50%; left: 50%; transform:translate(-50%, -50%); text-align: center; display: flex; flex-direction: column; opacity: 0; transition: all 0.3s 0.5s linear; justify-content: center; align-items: center;}
 
   .banner .bannerTxt .subTxt{display: none;}
   .banner .bannerTxt h2{color: #444;}
@@ -34,7 +32,6 @@
 
 @media screen and (max-width:780px){
 
-
   .topBtn{right: 5px; font-size: 20px;}
   .topBtn p{display: none;}
 }
@@ -44,7 +41,15 @@
   .logo{margin: 20px 0;}
   .logo img{width: 100px;}
 
-  .gnb li a{font-size: 14px;}
+  .loginBar{padding: 5px 30px;}
+
+  .gnbWrap{height: auto; justify-content: flex-end; flex-wrap: wrap;}
+  .gnb{display: none; width: 100%;}
+  .gnb li{width: 100%; display: block; text-align: center; position: relative;}
+  .gnb li a{font-size: 14px; text-align: center;}
+  .gnb li .depth2{position: absolute; display: block; width: 100%; text-align: center;}
+
+  .mobileMenu{display: flex; margin-right: 30px;}
 
   .banner .bannerTxt a{padding: 10px 15px; font-size: 12px;}
   .banner .bannerTxt .subTxt{font-size: 12px;}
@@ -54,6 +59,10 @@
   .brandWrap .brandBoxes .rightBox,
   .brandWrap .brandBoxes .leftBox{width: 100%;}
   .brandWrap .brandBoxes .leftBox{justify-content: center; align-items: center; text-align: center;}
+  .brandWrap .brandBoxes .leftBox a{padding: 5px 15px;}
+  .brandWrap .brandBoxes .leftBox p{font-size: 12px;}
+
+  .brandBox .overlay p{font-size: 12px;}
 }
 
 @media screen and (max-width:400px){

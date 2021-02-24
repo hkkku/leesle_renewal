@@ -29,40 +29,53 @@
           <ul class="loginTab clear">
             <li><a href="">LOGIN</a></li>
             <li><a href="">회원가입</a></li>
-            <li><a href=""><i class="fa fa-cart-plus"></i></a></li>
+            <li><a href=""><i class="fa fa-cart-plus"></i>장바구니</a></li>
+            <li>
+              <select>
+                <option value="kor">한국어</option>
+                <option value="eng">English</option>
+                <option value="jap">日本語</option>
+              </select>
+            </li>
           </ul>
         </div>
         <h2 class="logo">
          <a href="/leesle/index.php"><img src="/leesle/img/logo.png" alt="leesle logo"></a> 
         </h2>
-        <ul class="gnb clear">
-          <li class="depth1">
-            <a href="">SHOP</a>
-            <ul class="depth2">
-              <li><a href="#">베스트</a></li>
-              <li><a href="#">외투</a></li>
-              <li><a href="#">상의</a></li>
-              <li><a href="#">원피스</a></li>
-              <li><a href="#">하의</a></li>
-            </ul>
-          </li>
-          <li class="depth1"><a href="">ABOUT</a></li>
-          <li class="depth1">
-            <a href="">COLLABO</a>
-            <ul class="depth2">
-              <li><a href="#">LESSLE X CARD</a></li>
-              <li><a href="#">MEDIA</a></li>
-            </ul>
-          </li>
-          <li class="depth1">
-            <a href="">Q&A</a>
-            <ul class="depth2">
-              <li><a href="#">자주 묻는 질문</a></li>
-              <li><a href="#">고객 문의</a></li>
-            </ul>
-          </li>
-          <li class="depth1"><a href="">LOOK</a></li>
-        </ul>
+        <div class="gnbWrap">
+         <div class="mobileMenu">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul class="gnb clear">
+            <li class="depth1">
+              <a href="#">SHOP</a>
+              <ul class="depth2">
+                <li><a href="#">베스트</a></li>
+                <li><a href="#">외투</a></li>
+                <li><a href="#">상의</a></li>
+                <li><a href="#">원피스</a></li>
+                <li><a href="#">하의</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="">ABOUT</a></li>
+            <li class="depth1">
+              <a href="">COLLABO</a>
+              <ul class="depth2">
+                <li><a href="#">LESSLE X CARD</a></li>
+                <li><a href="#">MEDIA</a></li>
+              </ul>
+            </li>
+            <li class="depth1">
+              <a href="">Q&A</a>
+              <ul class="depth2">
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">고객 문의</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="">LOOK</a></li>
+          </ul>
+
+        </div>
       </div>
     </header>
     <div class="banner">
