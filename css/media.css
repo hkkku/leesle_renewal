@@ -44,10 +44,11 @@
   .loginBar{padding: 5px 30px;}
 
   .gnbWrap{height: auto; justify-content: flex-end; flex-wrap: wrap;}
-  .gnb{display: none; width: 100%;}
-  .gnb li{width: 100%; display: block; text-align: center; position: relative;}
+  .gnb{display: none; width: 100%; margin-bottom: 25px;}
+  .gnb .depth1{width: 100%; height: auto; display: block; text-align: center; position: relative; padding: 10px 0;}
   .gnb li a{font-size: 14px; text-align: center;}
-  .gnb li .depth2{position: absolute; display: block; width: 100%; text-align: center;}
+  .gnb li .depth2{position: absolute; display: block; width: 100%; text-align: center; z-index: 999; background: rgba(255, 255, 255, 1);}
+  .gnb li .depth2 li{text-align: center;}
 
   .mobileMenu{display: flex; margin-right: 30px;}
 

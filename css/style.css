@@ -90,3 +90,23 @@
 /* footer style */
 footer{width: 100%; height: auto; background: #7963ab; padding: 15px 0; text-align: center; bottom: 0;}
 footer p{color: #fff; font-weight: 300;}
+
+
+/* ---------------------------------------------------------------------- */
+/* About Page style */
+
+.slide-wrap{width: 100%; height: 50vh; overflow: hidden; display: flex; align-items: center;}
+.slide-wrap .slide-content .slider{width: 100%; height: auto;}
+.slide-content{
+  width: 100%;
+  height:50vh;
+}
+.slider li{ 
+  background-size:cover;
+  background-position: center;
+}
+.slide-wrap .item1{width: 20% ; height: 50vh; background-image: url(/leesle/img/about_main_01.jpg);}
+.slide-wrap .item2{width: 20% ; height: 50vh; background-image: url(/leesle/img/about_main_02.jpg);}
+.slide-wrap .item3{width: 20% ; height: 50vh; background-image: url(/leesle/img/about_main_03.jpg);}
+
+.aboutBox{width: 100%; height: 300px; background: #7963ab;}
