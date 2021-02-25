@@ -2,15 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+@font-face {
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* reset css */
 *{margin: 0; padding: 0; box-sizing:border-box;}
 ol , ul, li{list-style: none;}
-a{text-decoration: none; color: #444;}
-body{font-size: 14px; font-family: "Noto Sans KR", sans-serif;}
+a{text-decoration: none; color: #555;}
+body{font-size: 14px; font-family: "Arita-dotum-Medium", sans-serif; color: #555;}
 input[type="checkbox"]{-webkit-appearance: auto; border-radius: 0; border: 1px solid #45436c;}
 img{display: block;}
-button, input, textarea{outline: 0; font-family: 'Noto Sans KR'; background: none; outline: 0; border: 0;}
+button, input, textarea{outline: 0; font-family: "Arita-dotum-Medium"; background: none; outline: 0; border: 0;}
 .clear::after{clear: both; display: block; content: '';} 
 .center{width: 100%; max-width: 1200px; height: auto; margin: auto;}
 input::placeholder, textarea::placeholder{color: #7963ab;}

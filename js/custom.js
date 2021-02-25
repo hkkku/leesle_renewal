@@ -1,31 +1,43 @@
 $(function(){
 
+
+  function responsiveWidth(){
+
     let winW = $(window).width();
     console.log(winW);
 
-    $(window).resize(function(){
-
-      let winW = $(window).width();
-      console.log(winW);
-
       if(winW >= 600){
-
         $('.gnb .depth1').mouseenter(function(){
           $(this).find("ul").stop().slideDown(400);
         });
         $('.gnb .depth1').mouseleave(function(){
           $('.gnb .depth1 .depth2').stop().slideUp(400);
         });
-  
+
       } else if(winW < 600) {
-  
         $('.gnb .depth1 .depth2').hide();
         $('.gnb .depth1').click(function(){
           $(this).find(".depth2").stop().slideToggle("fast");
         });
       }
+  };
+
+    responsiveWidth();
+    
+    var delta = 300; 
+    var timer = null;
+
+    $(window).resize(function(){
+      clearTimeout( timer ); 
+      timer = setTimeout( resizeDone, delta );
     });
- 
+    
+    function resizeDone(){ 
+      history.go(0);
+      responsiveWidth();
+    };
+
+
 
   $(".leftBox").hide();
   $(".leftBox:first").show();

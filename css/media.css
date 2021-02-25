@@ -26,6 +26,8 @@
   .banner .bannerTxt .slogan{margin: 0; color: #444;}
   .banner .bannerTxt a{padding: 5px 20px; font-size: 12px; font-weight: 300;}
 
+  .brandWrap .brandBoxes .leftBox{padding: 20px;}
+
   .productWrap .bestTit h2,
   .brandWrap .brandTit h2{font-size: 30px;}
 }
