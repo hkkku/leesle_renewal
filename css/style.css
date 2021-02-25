@@ -1,7 +1,8 @@
 .wrap{width: 100%; height: auto; background: #fff;}
+.wrap.about{background: rgba(121, 99, 171, 0.1);}
 
 /* Header style */
-.headerWrap{padding: 10px; width: 100%; height: auto; display: flex; flex-wrap: wrap;}
+.headerWrap{padding: 10px; width: 100%; height: auto; display: flex; flex-wrap: wrap; background: #fff;}
 
 .loginBar{width: 100%; height: auto; display: flex; justify-content: flex-end; padding: 5px 50px;}
 .loginBar .loginTab li{float: left; margin-left: 10px;}
@@ -121,7 +122,7 @@ footer p{color: #fff; font-weight: 300;}
 .contentBox .aboutBox .aboutTxt{font-weight: 300; color: #666; margin-bottom: 5px;}
 
 .blank{width: 100%; height: 150px;}
-.contentBox .motto{width: 100%; height: auto; text-align: center; color: #666; font-weight: 300; line-height: 1.6em;}
+.contentBox .motto{width: 100%; height: auto; text-align: center; color: #666; font-weight: 300; line-height: 1.6em; margin-top: 20px;}
 
 /* identity box style */
 .identityBox{display: flex; margin-top: 50px; flex-wrap: wrap; justify-content: center;}
@@ -134,6 +135,25 @@ footer p{color: #fff; font-weight: 300;}
 /* designer box style */
 .designerBox{width: 100%; height: auto; display: flex; margin-top: 50px; flex-wrap: wrap; justify-content: center;}
 
-.designerBox .desImg{width: 30%;  height: auto; overflow: hidden; display: flex;align-items: center; margin-right: 10px; box-shadow: 0 3px 5px rgba(0,0,0,.5); }
+.designerBox .desImg{width: 30%; height: auto; overflow: hidden; display: flex;align-items: center; margin-right: 10px; box-shadow: 0 3px 5px rgba(0,0,0,.5);  float: left;}
 .designerBox .desImg img{width: 100%;}
 .designerBox .desTxt{width: 50%; padding: 50px; display: flex; align-items: center; flex-wrap: wrap; border: 1px solid #7963ab; line-height: 1.6em;}
+.designerBox .desTxt h3{font-size: 30px; color: #7963ab;}
+.designerBox .desTxt .designerSub{color: #aaa; margin: 10px 0;}
+.designerBox .desTxt .biTxt b{color: #7963ab; font-weight: bold;}
+
+/* bi img box style */
+.biImgBox{width: 100%; height: auto; display: flex; justify-content: center; margin-top: 60px;}
+.biImgBox .biImg{width: 20%; margin-left: 10px; box-shadow: 0 3px 5px rgba(0,0,0,.5); }
+.biImgBox .biImg:first-child{margin: 0;}
+.biImgBox .biImg img{width: 100%;}
+
+/* map box style */
+.mapBox{width: 100%; height: auto; padding: 50px 0;}
+.mapBox .mapTxt{width: 45%; height: auto; padding: 150px 0 0; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; float: left; text-align: center;}
+.mapBox .mapTxt h3{width: 100%; margin: 10px 0; color: #7963ab;} 
+.mapBox .mapTxt p{width: 100%;}
+.mapBox .mapTxt p i{color: #7963ab;}
+
+.mapBox .map{display: flex; justify-content: center; align-items: center; width: 45%; height: 400px; padding: 10px; border: 1px solid #7963ab;}
+.mapBox .map iframe{width: 100%; height: 100%;}

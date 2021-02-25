@@ -30,12 +30,28 @@
 
   .productWrap .bestTit h2,
   .brandWrap .brandTit h2{font-size: 30px;}
+
+  
 }
 
 @media screen and (max-width:780px){
 
   .topBtn{right: 5px; font-size: 20px;}
   .topBtn p{display: none;}
+
+  .contentBox{padding: 10px;}
+
+  .identityBox .logoBox img{width: 30%;}
+  .identityBox .logoTxt{width: 80%;}
+
+  .designerBox .desImg{width: 100%; margin: 20px 0;}
+  .designerBox .desTxt{width: 100%; text-align: center; justify-content: center;}
+  .designerBox .desTxt h3{text-align: center;}
+
+  
+  .mapBox .mapTxt{width: 100%; padding: 50px;}
+  .mapBox .map{width: 100%;}
+
 }
 
 @media screen and (max-width:600px){

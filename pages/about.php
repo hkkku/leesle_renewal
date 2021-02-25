@@ -24,7 +24,7 @@
 <body>
 
   <!-- All contents are in WRAPS -->
-  <div class="wrap">
+  <div class="wrap about">
     <header>
       <div class="headerWrap">
         <div class="loginBar">
@@ -92,7 +92,7 @@
         </ul>
       </div>
     </div>
-    <div class="aboutWrap">
+    
     <div class="center">
       <div class="contentBox">
         <div class="aboutBox">
@@ -139,7 +139,7 @@
             <h3>디자이너 '황 이슬'</h3>
             <p class="designerSub">
             "13 Korean Fashion Designers Guaranteed to Be the next Big Thing"</br>
-            전 세계가 주목하는 대한민국 차세대 대표 디자이너 13인에 선정
+            <em>전 세계가 주목하는 대한민국 차세대 대표 디자이너 13인에 선정</em> 
             </p>
             <p class="biTxt">
               리슬은 21세기 라이프스타일을 반영한 새로운 한복을 제시합니다.</br>
@@ -147,21 +147,44 @@
               꾸준한 디자인, 소재 개발을 통해 입기 쉽고 멋스러운 디자인을 만들고 있으며
               한국 뿐 아니라 미국, 유럽 등지에서도 큰 사랑을 받고 있습니다.</br>
               </br>
-              리슬은 전통과 현대의 감성이 조화를 이룬 글로벌 K-Fashion입니다.
+              <b>리슬은 전통과 현대의 감성이 조화를 이룬 글로벌 K-Fashion입니다.</b>
             </p>
             <p class="biTxt">
               리슬은 1년 2시즌(S/S, F/W)으로 나누어 전통미와 트렌드를 담은 새로운 스타일을 꾸준히 선보이는 디자이너 브랜드입니다.</br>
               스테디셀러, 시그니쳐 라벨을 제외한 전 디자인은 시즌 한정생산 합니다.</br>
               모든 의상은 기성복 형태로 국내 생산하여 상담의 번거로움과 기다림의 시간을 최소화하였습니다.</br>
-              평균 경력 25년의 전문가의 손을 통해 완성된 리슬의 옷은 우수한 품질과 42건의 디자인이 디자인 등록되어 있습니다.(2017년 기준)</br>
+              <b>평균 경력 25년의 전문가의 손을 통해 완성된 리슬의 옷</b>은 우수한 품질과 42건의 디자인이 디자인 등록되어 있습니다.(2017년 기준)
             </p>
+          </div>
+        </div>
+        <!-- designer box end -->
+        <div class="biImgBox">
+          <div class="biImg">
+            <img src="/leesle/img/bi_01.jpg" alt="bi 이미지1">
+          </div>
+          <div class="biImg">
+            <img src="/leesle/img/bi_02.jpg" alt="bi 이미지2">
+          </div>
+          <div class="biImg">
+            <img src="/leesle/img/bi_03.jpg" alt="bi 이미지3">
+          </div>
+        </div>
+        <!-- bi Img box end -->
+        <div class="mapBox clear">
+          <div class="mapTxt">
+            <h3>찾아오시는 길</h3>
+            <p><i class="fa fa-map"></i> 전라북도 전주시 덕진구 동부대로 687 KR 1층</p>
+            <p><i class="fa fa-phone-square-alt"></i> 070-4219-2293</p>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.9762102439367!2d127.15789941526346!3d35.84958688015532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357023029ab60aad%3A0xb3d63c598c4731f5!2z66as7IqsIChMRUVTTEUp!5e0!3m2!1sko!2skr!4v1614238466483!5m2!1sko!2skr" loading="lazy"></iframe>
           </div>
         </div>
       </div>
       <!-- content box end -->
     </div>
     <!-- center div end -->
-    </div>
+    
     
    
     <button type="button" onclick="topFunction()" class="topBtn" id="topBtn">
