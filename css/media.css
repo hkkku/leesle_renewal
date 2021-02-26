@@ -7,6 +7,8 @@
   .banner .bannerTxt{margin-left: 30px;}
 
   .gnb .depth1{padding: 0 20px;}
+
+  .wrap.collabo iframe{height: 800px;}
 }
 
 @media screen and (max-width:900px){
@@ -51,6 +53,8 @@
   
   .mapBox .mapTxt{width: 100%; padding: 50px;}
   .mapBox .map{width: 100%;}
+
+  .wrap.collabo iframe{height: 500px;}
 
 }
 

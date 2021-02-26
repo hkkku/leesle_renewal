@@ -63,7 +63,7 @@
             <li class="depth1">
               <a href="#">COLLABO</a>
               <ul class="depth2">
-                <li><a href="#">LESSLE X CARD</a></li>
+                <li><a href="/leesle/pages/collabo.php">LESSLE X CARD</a></li>
                 <li><a href="#">MEDIA</a></li>
               </ul>
             </li>

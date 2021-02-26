@@ -157,3 +157,24 @@ footer p{color: #fff; font-weight: 300;}
 
 .mapBox .map{display: flex; justify-content: center; align-items: center; width: 45%; height: 400px; padding: 10px; border: 1px solid #7963ab;}
 .mapBox .map iframe{width: 100%; height: 100%;}
+
+
+/* ---------------------------------------------------------------------- */
+/* Collabo Page style */
+
+.wrap.collabo{background: #000; width: 100%; height: auto;}
+.wrap.collabo .headerWrap{background: #000;}
+.wrap.collabo .headerWrap .loginTab li a{color: #ddd;}
+.wrap.collabo .headerWrap .loginTab select{background: #000;}
+.wrap.collabo .headerWrap .loginTab select option{background: #000;}
+.wrap.collabo .headerWrap .logo img{filter: brightness(800%);}
+
+.wrap.collabo .gnbWrap .mobileMenu{color: #ddd;}
+.wrap.collabo .gnbWrap .gnb li a{color: #ddd;}
+
+.collaboFooter{background: #000;}
+.collaboFooter p{color: #bbb;}
+
+.colTit{color: #ddd; text-align: center; margin: 50px 0 10px;}
+.colTit h2{font-size: 35px;}
+.colSubTit{color: #ddd; text-align: center; padding-bottom: 50px;}
