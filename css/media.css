@@ -33,6 +33,8 @@
   .productWrap .bestTit h2,
   .brandWrap .brandTit h2{font-size: 30px;}
 
+  .biImgBox .biImg{width: 30%;}
+
   
 }
 
@@ -44,7 +46,7 @@
   .contentBox{padding: 10px;}
 
   .identityBox .logoBox img{width: 30%;}
-  .identityBox .logoTxt{width: 80%;}
+  .identityBox .logoTxt{width: 80%; margin-top: 30px;}
 
   .designerBox .desImg{width: 100%; margin: 20px 0;}
   .designerBox .desTxt{width: 100%; text-align: center; justify-content: center;}
@@ -86,6 +88,8 @@
   .brandWrap .brandBoxes .leftBox p{font-size: 12px;}
 
   .brandBox .overlay p{font-size: 12px;}
+
+  .designerBox .desTxt .biTxt{font-size: 12px;}
 }
 
 @media screen and (max-width:400px){

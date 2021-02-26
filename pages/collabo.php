@@ -48,7 +48,7 @@
          <div class="mobileMenu">
            <i class="fa fa-bars"></i>
          </div>
-         <ul class="gnb clear">
+         <ul class="gnb clear" id="gnb">
             <li class="depth1">
               <a href="#">SHOP</a>
               <ul class="depth2">

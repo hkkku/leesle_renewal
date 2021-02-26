@@ -171,6 +171,8 @@ footer p{color: #fff; font-weight: 300;}
 
 .wrap.collabo .gnbWrap .mobileMenu{color: #ddd;}
 .wrap.collabo .gnbWrap .gnb li a{color: #ddd;}
+.wrap.collabo .gnbWrap .gnb .depth2 li{background: #000;}
+.wrap.collabo .gnbWrap .gnb .depth2 li:hover{background: #7963ab;}
 
 .collaboFooter{background: #000;}
 .collaboFooter p{color: #bbb;}
