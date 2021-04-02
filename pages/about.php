@@ -29,10 +29,10 @@
       <div class="headerWrap">
         <div class="loginBar">
           <ul class="loginTab clear">
-            <li><a href="">LOGIN</a></li>
-            <li><a href="">회원가입</a></li>
-            <li><a href=""><i class="fa fa-cart-plus"></i>장바구니</a></li>
-            <li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#"><i class="fa fa-cart-plus"></i>장바구니</a></li>
+            <li class="langBox">
               <select>
                 <option value="kor">한국어</option>
                 <option value="eng">English</option>
@@ -76,9 +76,10 @@
             </li>
             <li class="depth1"><a href="#">LOOK</a></li>
           </ul>
-
         </div>
+        <!-- gnb end -->
       </div>
+      <!-- header wrap end -->
     </header>
     <div class="slide-wrap">
       <div class="slide-content">
@@ -92,7 +93,7 @@
         </ul>
       </div>
     </div>
-    
+    <!-- slide wrap end -->
     <div class="center">
       <div class="contentBox">
         <div class="aboutBox">
@@ -180,6 +181,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.9762102439367!2d127.15789941526346!3d35.84958688015532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357023029ab60aad%3A0xb3d63c598c4731f5!2z66as7IqsIChMRUVTTEUp!5e0!3m2!1sko!2skr!4v1614238466483!5m2!1sko!2skr" loading="lazy"></iframe>
           </div>
         </div>
+        <!-- map end -->
       </div>
       <!-- content box end -->
     </div>

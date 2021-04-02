@@ -32,7 +32,7 @@
             <li><a href="#">LOGIN</a></li>
             <li><a href="#">회원가입</a></li>
             <li><a href="#"><i class="fa fa-cart-plus"></i>장바구니</a></li>
-            <li>
+            <li class = "langBox">
               <select>
                 <option value="kor">한국어</option>
                 <option value="eng">English</option>
@@ -78,8 +78,8 @@
             </li>
             <li class="depth1"><a href="#">LOOK</a></li>
           </ul>
-
         </div>
+        <!-- gnbwrap end -->
       </div>
     </header>
       <div class="youtube">

@@ -2,7 +2,7 @@ $(function(){
 
 
   function responsiveWidth(){
-
+    // resize 시에 네비게이션 방식이 변경 (WEB 메뉴 - MOBILE 메뉴)
     let winW = $(window).width();
     console.log(winW);
 
@@ -23,7 +23,7 @@ $(function(){
   };
 
     responsiveWidth();
-    
+    // resize가 한 번만 실행되는 함수
     var delta = 300; 
     var timer = null;
 
@@ -37,11 +37,8 @@ $(function(){
       responsiveWidth();
     };
 
-
-
-  $(".leftBox").hide();
-  $(".leftBox:first").show();
-
+  
+  // mobilemenu 클릭 시 toggle 형식으로 슬라이드 메뉴 작동 및 아이콘 변경
   $(".mobileMenu").click(function(){
     $(this).toggleClass("on");
     if($(this).hasClass("on")){
@@ -53,7 +50,11 @@ $(function(){
     }
   });
 
+  // leesle 설명 박스 1번째 index 강제 show  
+  $(".leftBox").hide();
+  $(".leftBox:first").show();
   $(".brandBox").click(function(){
+    // 클릭 시에 index를 받아와서 index 번째의 박스를 show 해줌 (tab)
     let index = $(this).index();
 
     $(".leftBox").hide();

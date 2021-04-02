@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>오, 한복한 인생 ― LEESLE</title>
-  <link rel="shortcut icon" href="/leesle/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/leesle/favicon.png" type="image/x-icon">
   <link rel="icon" href="/leesle/favicon.ico" type="image/x-icon">
   <!--  Awesome Font link -->
   <link
@@ -32,7 +32,7 @@
             <li><a href="#">LOGIN</a></li>
             <li><a href="#">회원가입</a></li>
             <li><a href="#"><i class="fa fa-cart-plus"></i>장바구니</a></li>
-            <li>
+            <li class="langBox">
               <select>
                 <option value="kor">한국어</option>
                 <option value="eng">English</option>
@@ -41,6 +41,7 @@
             </li>
           </ul>
         </div>
+        <!-- login bar end -->
         <h2 class="logo">
          <a href="/leesle/index.php"><img src="/leesle/img/logo.png" alt="leesle logo"></a> 
         </h2>
@@ -78,22 +79,24 @@
             </li>
             <li class="depth1"><a href="#">LOOK</a></li>
           </ul>
-
         </div>
+        <!-- gnb wrap end -->
       </div>
+      <!-- header wrap end -->
     </header>
+    <!-- header end -->
     <div class="banner">
-        <div class="imgBox">
-          <img src="/leesle/img/main_banner.jpg" alt="leesle main banner">
-        </div>
-        <div class="bannerTxt">
-          <h2>오! 한복한 인생 - 리슬</h2>
-          <p class="slogan">BRAVO, HANBOK LIFE! LEESLE</p>
-          <p class="subTxt">리슬은 한복을 재해석 한 디자인으로 보통의 날을 특별하게 만들어주는 모던한복 브랜드입니다.</p>
-          <p class="subTxt">베이직한 디자인과 좋은 품질을 추구하며 누구나 오랫동안 즐길 수 있는 전통을 만듭니다.</p>
-          <a href="#">MORE</a>
-        </div>
+      <div class="imgBox">
+        <img src="/leesle/img/main_banner.jpg" alt="leesle main banner">
       </div>
+      <div class="bannerTxt">
+        <h2>오! 한복한 인생 - 리슬</h2>
+        <p class="slogan">BRAVO, HANBOK LIFE! LEESLE</p>
+        <p class="subTxt">리슬은 한복을 재해석 한 디자인으로 보통의 날을 특별하게 만들어주는 모던한복 브랜드입니다.</p>
+        <p class="subTxt">베이직한 디자인과 좋은 품질을 추구하며 누구나 오랫동안 즐길 수 있는 전통을 만듭니다.</p>
+        <a href="#">MORE</a>
+      </div>
+    </div>
     <div class="center">
       <div class="productWrap">
         <div class="bestTit">
@@ -101,6 +104,7 @@
           <p>한 해 동안 가장 많은 사랑을 받은 한복들</p>
         </div>
         <div class="productBoxes">
+          <!-- contents are here -->
         </div>
         <div class="btn">
             <button class="moreBtn">

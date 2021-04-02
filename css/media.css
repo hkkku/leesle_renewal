@@ -28,6 +28,7 @@
   .banner .bannerTxt .slogan{margin: 0; color: #444;}
   .banner .bannerTxt a{padding: 5px 20px; font-size: 12px; font-weight: 300;}
 
+  /* about page media style */
   .brandWrap .brandBoxes .leftBox{padding: 20px;}
 
   .productWrap .bestTit h2,
@@ -80,7 +81,8 @@
   .banner .bannerTxt .subTxt{font-size: 12px;}
   
   .productWrap .productBox{width: 50%;}
-
+  
+  /* about page media style */
   .brandWrap .brandBoxes .rightBox,
   .brandWrap .brandBoxes .leftBox{width: 100%;}
   .brandWrap .brandBoxes .leftBox{justify-content: center; align-items: center; text-align: center;}
