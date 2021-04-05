@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="생활한복 온라인 쇼핑몰 리슬의 웹사이트 디자인을 리뉴얼해 퍼블리싱한 웹사이트 입니다."> 
   <title>오, 한복한 인생 ― LEESLE</title>
   <link rel="shortcut icon" href="/leesle/favicon.png" type="image/x-icon">
   <link rel="icon" href="/leesle/favicon.ico" type="image/x-icon">
